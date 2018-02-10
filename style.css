@@ -1,20 +1,20 @@
 body {
   font-family: 'Open Sans Condensed', sans-serif;
-  padding-left: 10vw;
-  padding-right: 10vw;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding: 0;
+  margin:0;
   font-size: 1.5em;
-  background-color: #f1f2f6;
   color: #2C3A47;
 }
 
 header{
+  padding-left: 10vw;
+  padding-right: 10vw;
   display: flex;
   -webkit-flex-direction: column; /* Safari */
   flex-direction:         column;
   justify-content: center;
   min-height: 100vh;
+  background-color: #f1f2f6;
 }
   header .name{
     font-family: 'Amatic SC', cursive;
@@ -49,4 +49,87 @@ header{
     header button:hover{
       background-color: #3B3B98;
       color: #f1f2f6;
+    }
+
+section{
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+  section h1{
+    font-size: 2.5em;
+    margin-top: 0;
+    margin-bottom: 4vh;
+    font-weight: normal;
+    text-align: center;
+  }
+
+section.portfolio{
+  background-color: #3B3B98;
+  color: #ffffff;
+}
+  .portfolio-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .portfolio-item{
+    padding: 1em 0.5em;
+    margin: 1em 0;
+    flex-basis: 600px;
+    border: 2px solid rgba(225, 226, 230, .1);
+    border-radius: 2px;
+    color: rgba(255, 255, 255, 1);
+  }
+    .portfolio-item > .portfolio-header{
+      display: flex;
+      justify-content: space-between;
+    }
+    .portfolio-item > .portfolio-header > .icon-container, .portfolio-item > .portfolio-header > .icon-container span{
+      display: flex;
+      align-content: center;
+      align-items: center;
+    }
+    .portfolio-item  .portfolio-header  h2{
+      margin-top: 0;
+      margin-bottom: 0;
+      display: inline-block;
+      font-weight: normal;
+      letter-spacing: 1px;
+      font-size: 1.75em;
+      text-transform: uppercase;
+      cursor: pointer;
+      font-family: 'Amatic SC', cursive;
+    }
+    .portfolio-item  .portfolio-body  p{
+      font-size: 0.7em;
+      letter-spacing: 1.5px;
+    }
+    .portfolio-item  .portfolio-body button{
+      color: rgba(225, 226, 230, .9);
+      margin-top: 2vh;
+      margin-bottom: 1vh;
+      font-size: 1em;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-family: 'Amatic SC', cursive;
+      background: none;
+      border: none;
+      padding: 0.15em 0.3em;
+      margin-left: 0;
+      margin-right: 0;
+      cursor: pointer;
+      transition: all 1s;
+      border-bottom: 1.5px solid rgba(225, 226, 230, .9);
+      letter-spacing: 1px;
+      outline: none;
+    }
+      .portfolio-item  .portfolio-body button:hover{
+        background-color: rgba(225, 226, 230, 1);
+        color: #3B3B98;
+      }
+    .portfolio-item > .portfolio-header > span{
+      float:right;
     }
