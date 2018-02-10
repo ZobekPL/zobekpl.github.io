@@ -98,10 +98,8 @@ section.portfolio{
       display: inline-block;
       font-weight: normal;
       letter-spacing: 1px;
-      font-size: 1.75em;
-      text-transform: uppercase;
+      font-size: 1.5em;
       cursor: pointer;
-      font-family: 'Amatic SC', cursive;
     }
     .portfolio-item  .portfolio-body  p{
       font-size: 0.7em;
