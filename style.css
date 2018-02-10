@@ -102,8 +102,8 @@ section.portfolio{
       cursor: pointer;
     }
     .portfolio-item  .portfolio-body  p{
-      font-size: 0.7em;
-      letter-spacing: 1.5px;
+      font-size: 0.8em;
+      letter-spacing: 0.5px;
     }
     .portfolio-item  .portfolio-body button{
       color: rgba(225, 226, 230, .9);
@@ -202,7 +202,7 @@ section.contact{
     display: flex;
     align-items: center;
   }
-  div.media a{
+ a{
     color:inherit;
     border: none;
     text-decoration: none;
@@ -213,13 +213,43 @@ footer{
 }
 
 .icon{
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   display: inline-block;
+  margin: 0 8px;
 }
 
 .icon-github{
   content: url("icons/github.svg");
+}
+
+.icon-github-light{
+  content: url("icons/github-light.svg");
+}
+
+.icon-javascript{
+  content: url("icons/javascript.svg");
+}
+
+.icon-typescript{
+  content: url("icons/typescript.png");
+}
+
+.icon-nodejs{
+  content: url("icons/nodejs.svg");
+}
+
+.icon-express{
+  width: 3.5em!important;
+  content: url("icons/express.svg");
+}
+
+.icon-html{
+  content: url("icons/html.svg");
+}
+
+.icon-css{
+  content: url("icons/css.svg");
 }
 
 .icon-gmail{
@@ -228,4 +258,8 @@ footer{
 
 .icon-instagram{
   content: url("icons/instagram.svg");
+}
+
+.small{
+  font-size: 0.8em;
 }
