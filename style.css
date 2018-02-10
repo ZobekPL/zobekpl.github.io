@@ -140,6 +140,12 @@ section.contact{
     width: 50%;
     float: left;
   }
+  @media (max-width: 992px) {
+    section.contact .container-half{
+      width: 100%;
+    }
+  }
+
   section.contact .container-half.form{
         text-align: center;
   }
@@ -187,6 +193,39 @@ section.contact{
         color: #f1f2f6;
       }
 
+  div.media .icon{
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+  }
+  div.media p{
+    display: flex;
+    align-items: center;
+  }
+  div.media a{
+    color:inherit;
+    border: none;
+    text-decoration: none;
+  }
+
 footer{
   text-align: center;
+}
+
+.icon{
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+}
+
+.icon-github{
+  content: url("icons/github.svg");
+}
+
+.icon-gmail{
+  content: url("icons/gmail.svg");
+}
+
+.icon-instagram{
+  content: url("icons/instagram.svg");
 }
