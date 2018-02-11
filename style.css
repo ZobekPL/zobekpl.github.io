@@ -4,6 +4,7 @@ body {
   margin:0;
   font-size: 1.5em;
   color: #2C3A47;
+  background-color: #f1f2f6;
 }
 
 header{
@@ -290,7 +291,7 @@ footer{
 
 .fade-out {
   opacity: 1;
-  animation: fadeOut .5s ease-in 1 forwards;
+  animation: fadeOut 1s ease-in 1 forwards;
 }
 
 @keyframes fadeIn {
@@ -301,7 +302,7 @@ footer{
 
 .fade-in {
   opacity: 0;
-  animation: fadeIn .5s ease-in 1 forwards;
+  animation: fadeIn 1s ease-in 1 forwards;
 }
 
 .is-paused {

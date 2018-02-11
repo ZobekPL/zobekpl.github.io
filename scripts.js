@@ -7,3 +7,7 @@ window.addEventListener("scroll", function(){
     scrollDownForMore.classList.remove("is-paused");
   }
 });
+
+window.addEventListener("load", function(){
+  header.classList.remove("is-paused");
+});
