@@ -13,7 +13,9 @@ header{
   -webkit-flex-direction: column; /* Safari */
   flex-direction:         column;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 80vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   background-color: #f1f2f6;
 }
   header .name{
@@ -143,6 +145,9 @@ section.contact{
   @media (max-width: 992px) {
     section.contact .container-half{
       width: 100%;
+    }
+    section.contact .container-half form input, section.contact .container-half form textarea{
+      width: 100%!important;
     }
   }
 
