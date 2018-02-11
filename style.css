@@ -17,6 +17,7 @@ header{
   padding-top: 10vh;
   padding-bottom: 10vh;
   background-color: #f1f2f6;
+  position: relative;
 }
   header .name{
     font-family: 'Amatic SC', cursive;
@@ -279,4 +280,30 @@ footer{
   bottom:0;
   left: 50%;
   transform: translateX(-50%);
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-out {
+  opacity: 1;
+  animation: fadeOut .5s ease-in 1 forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn .5s ease-in 1 forwards;
+}
+
+.is-paused {
+  animation-play-state: paused;
 }
