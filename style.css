@@ -172,6 +172,7 @@ section.contact{
       outline: none;
       font-family: 'Open Sans Condensed', sans-serif;
       letter-spacing: 1px;
+      background-color: transparent;
     }
       section.contact .container-half form input:focus, section.contact .container-half form textarea:focus{
         border-bottom: 1.5px solid rgba(59, 59, 152, 1);

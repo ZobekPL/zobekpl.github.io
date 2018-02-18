@@ -11,3 +11,7 @@ window.addEventListener("scroll", function(){
 window.addEventListener("load", function(){
   header.classList.remove("is-paused");
 });
+
+
+// INITIALIZE SMOOTH SCROLL
+var scroll = new SmoothScroll(`a[href*="#"]`);
